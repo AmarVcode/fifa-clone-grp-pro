@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    header{
+        background-color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-top: 1px solid rgba(128, 128, 128, 0.247);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+        // border-bottom: 1px solid grey;
+        .top{
+            border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+            padding: 1em;
+        }
+
+        .svg1{
+            width: 100%;
+            position: static;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            svg{
+                width: 5.5rem;
+            }
+        }
+        .last{
+            .last1{
+                display: flex;
+                float: right;
+                padding: 1.4em ;
+                margin-top: -60px;
+                justify-content: center;
+                transform: scale(.8);
+                a{
+                    display: block;
+                    position: relative;
+                    padding: 0em 1em;
+                    border-left: 2px solid rgba(128, 128, 128, 0.219);
+                    text-decoration: none;
+                    color: black;
+                }
+                a:hover{
+                    color: #1277d9;
+                }
+                #svgex{
+                    border: none;
+                }
+    
+                #svgex:hover{
+                    fill: #1277d9 !important;
+    
+                }
+            }
+        }
+        .bottom{
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            &>div{
+                padding: .9em;
+                padding-bottom: 0;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 700;
+                    font-size: .9rem;
+                    font-family: Open Sans Condensed;
+                    text-transform: uppercase;
+                    transition: 500ms;
+                    display: block;
+                    padding-bottom:1em ;
+                }
+                .show{
+                    width: 100%;
+                    transform: scale(1,0);
+                    padding: 1em;
+                    position: absolute;
+                    left: 0;
+                    display: grid;
+                    grid-template-columns: 25% 25% 25% 25%;
+                    background-color: white;
+                    border-top: 1px solid rgba(128, 128, 128, 0.233);
+                    z-index: 1000;
+                    transition: 500ms;
+                    transform-origin:top ;
+                    justify-content: center;
+                    
+                    a{
+                        color: rgba(0, 0, 0, 0.651) !important;
+                        padding: .7em 4em;
+                        font-weight: normal;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+                        font-size: .8rem;
+                        width: 100%;
+                       b{
+                        color: black;
+                        font-size: .7rem;
+                       }
+                    }
+                    a:hover{
+                        color: #1277d9 !important;
+                        background-color: rgba(0, 0, 0, 0.123);
+                    }
+                }
+            }
+            &>div:hover{
+                a{
+                    color: #1277d9;
+
+                }
+                &>div{
+                    transform: scale(1,1);
+                }
+
+            }
+        }
+    }
+    }
+
