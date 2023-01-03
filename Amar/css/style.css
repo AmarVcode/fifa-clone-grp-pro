@@ -311,7 +311,6 @@ body #header1 .bottom > div:hover > div {
   }
   .svg1 svg {
     left: 0;
-    border: 1px solid red;
     float: left;
     margin-left: -200px;
   }
