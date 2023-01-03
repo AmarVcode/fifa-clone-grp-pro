@@ -331,6 +331,7 @@ body #header1 .bottom > div:hover > div {
   overflow: hidden;
 }
 .Scontainer .slides div p {
+  width: 300px !important;
   margin: 1em;
   font-weight: 600;
   font-size: 1.2rem;
@@ -340,6 +341,9 @@ body #header1 .bottom > div:hover > div {
   display: flex;
   gap: 40px;
   margin: 1em;
+}
+.slidebtn div:nth-child(1) {
+  opacity: 30%;
 }
 .slidebtn div {
   border-radius: 50%;
@@ -351,6 +355,37 @@ body #header1 .bottom > div:hover > div {
   fill: #550065;
   padding: 1em;
   box-sizing: content-box;
+}
+
+.exception {
+  background-color: #000f2c;
+  color: white !important;
+}
+.exception h4 {
+  color: white !important;
+}
+.exception svg {
+  fill: #0088e7 !important;
+}
+.exception .slides {
+  background-color: transparent;
+}
+.exception .slides div {
+  background-color: transparent;
+}
+.exception .slidebtn div {
+  border-color: #0088e7 !important;
+}
+
+#slide3 div {
+  border-radius: 0%;
+}
+#slide3 img {
+  width: 200px;
+  border-radius: 5px;
+}
+#slide3 p {
+  width: 180px !important;
 }
 
 @media (max-width: 900px) {

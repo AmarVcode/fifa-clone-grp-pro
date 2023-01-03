@@ -360,6 +360,7 @@ a{
                 border-top-right-radius: 10px;
                 overflow: hidden;
                 p{
+                    width: 300px !important;
                     margin: 1em;
                     font-weight: 600;
                     font-size: 1.2rem;
@@ -375,7 +376,9 @@ a{
     display: flex;
     gap: 40px;
     margin: 1em;
-    
+    div:nth-child(1){
+        opacity: 30%;
+    }
     div{
         border-radius: 50%;
         border: 2px solid #550065;
@@ -389,9 +392,41 @@ a{
     }
 }
 
+.exception{
+    background-color: #000f2c;
+    color: white !important;
+    h4{
+        color: white !important;
+    }
+    svg{
+        fill: #0088e7 !important;
+    }
+    .slides{
+        background-color: transparent;
+        div{
+            background-color: transparent;
+        }
+    }
+    .slidebtn{
+        div{
 
+            border-color: #0088e7 !important;
+        }
+    }
+}
 
-
+#slide3{
+    div{
+        border-radius: 0%;
+    }
+    img{
+        width: 200px;
+        border-radius: 5px;
+    }
+    p{
+        width:180px !important;
+    }
+}
 
 
 
