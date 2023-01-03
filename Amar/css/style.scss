@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin: 0;
@@ -323,6 +326,75 @@ a{
             cursor: pointer;
         }
     }
+
+
+
+
+    .Scontainer{
+        background: rgb(238, 238, 228);
+        padding: 1em;
+        width: 100%;
+        font-family: Open Sans Condensed;
+        overflow: hidden;
+        h4{
+            text-transform: uppercase;
+            color: rgb(85, 0, 101);
+            font-size: 1.6rem;
+            margin: 1.2em;
+        }
+        a
+        {
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin: 1em;
+        }
+        .slides{
+            display: inline-flex;
+            transition: 1s;
+            cursor: pointer;
+            div{
+                transform: scale(.95);
+                background-color: white;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                overflow: hidden;
+                p{
+                    margin: 1em;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+
+
+
+.slidebtn{
+    display: flex;
+    gap: 40px;
+    margin: 1em;
+    
+    div{
+        border-radius: 50%;
+        border: 2px solid #550065;
+        cursor: pointer;
+        svg{
+            width: 1rem;
+            fill: #550065;
+            padding: 1em;
+            box-sizing: content-box;
+        }
+    }
+}
+
+
+
+
+
+
+
 
 
     @media (max-width:900px) {
