@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -7,7 +8,7 @@ body {
   padding: 0;
   font-family: Open Sans;
 }
-body header {
+body #header1 {
   background-color: white;
   position: sticky;
   top: 0;
@@ -15,11 +16,11 @@ body header {
   border-top: 1px solid rgba(128, 128, 128, 0.247);
   border-bottom: 1px solid rgba(128, 128, 128, 0.247);
 }
-body header .top {
+body #header1 .top {
   border-bottom: 1px solid rgba(128, 128, 128, 0.247);
   padding: 1em;
 }
-body header .svg1 {
+body #header1 .svg1 {
   width: 100%;
   position: static;
   display: flex;
@@ -27,10 +28,10 @@ body header .svg1 {
   align-items: center;
   justify-content: center;
 }
-body header .svg1 svg {
+body #header1 .svg1 svg {
   width: 5.5rem;
 }
-body header .last .last1 {
+body #header1 .last .last1 {
   display: flex;
   float: right;
   padding: 1.4em;
@@ -38,7 +39,7 @@ body header .last .last1 {
   justify-content: center;
   transform: scale(0.8);
 }
-body header .last .last1 a {
+body #header1 .last .last1 a {
   display: block;
   position: relative;
   padding: 0em 1em;
@@ -46,29 +47,31 @@ body header .last .last1 a {
   text-decoration: none;
   color: black;
 }
-body header .last .last1 a:hover {
+body #header1 .last .last1 a:hover {
   color: #1277d9;
 }
-body header .last .last1 #svgex {
+body #header1 .last .last1 #svgex {
   border: none;
 }
-body header .last .last1 #svgex:hover {
+body #header1 .last .last1 #svgex:hover {
   fill: #1277d9 !important;
 }
-body header .bottom {
-  max-width: 1000px;
+body #header1 .bottom {
+  width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  font-family: open sans regular;
 }
-body header .bottom a:hover {
+body #header1 .bottom a:hover {
   background-color: rgba(0, 0, 0, 0.041) !important;
 }
-body header .bottom > div {
+body #header1 .bottom > div {
   padding: 0.9em;
   padding-bottom: 0;
 }
-body header .bottom > div a {
+body #header1 .bottom > div a {
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -77,9 +80,10 @@ body header .bottom > div a {
   text-transform: uppercase;
   transition: 500ms;
   display: block;
+  white-space: nowrap;
   padding-bottom: 1em;
 }
-body header .bottom > div .show {
+body #header1 .bottom > div .show {
   width: 100%;
   transform: scale(1, 0);
   padding: 1em;
@@ -94,7 +98,7 @@ body header .bottom > div .show {
   transform-origin: top;
   justify-content: space-between;
 }
-body header .bottom > div .show a {
+body #header1 .bottom > div .show a {
   color: rgba(0, 0, 0, 0.651) !important;
   padding: 0.7em 4em;
   font-weight: normal;
@@ -103,27 +107,201 @@ body header .bottom > div .show a {
   width: 100%;
   background-color: white !important;
 }
-body header .bottom > div .show a b {
+body #header1 .bottom > div .show a b {
   color: black;
   font-size: 0.7rem;
   transition: 500ms;
 }
-body header .bottom > div .show a:hover {
+body #header1 .bottom > div .show a:hover {
   color: #1277d9 !important;
   background-color: rgba(0, 0, 0, 0.041) !important;
 }
-body header .bottom > div .show a:hover b {
+body #header1 .bottom > div .show a:hover b {
   color: #1277d9;
 }
-body header .bottom > div:hover {
+body #header1 .bottom > div:hover {
   background-color: rgba(0, 0, 0, 0.048);
 }
-body header .bottom > div:hover a {
+body #header1 .bottom > div:hover a {
   color: #1277d9;
   background-color: transparent !important;
 }
-body header .bottom > div:hover > div {
+body #header1 .bottom > div:hover > div {
   transform: scale(1, 1);
+}
+
+#header2 {
+  display: none;
+  background-color: white;
+  top: 0;
+  z-index: 1000;
+  border-top: 1px solid rgba(128, 128, 128, 0.247);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+#header2 .top {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+  padding: 1em;
+}
+#header2 .svg1 {
+  width: 100%;
+  position: static;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#header2 .svg1 svg {
+  width: 5.5rem;
+}
+#header2 .last .last1 {
+  display: flex;
+  float: right;
+  padding: 1.4em;
+  margin-top: -60px;
+  justify-content: center;
+  transform: scale(0.8);
+}
+#header2 .last .last1 a {
+  display: block;
+  position: relative;
+  padding: 0em 1em;
+  border-left: 2px solid rgba(128, 128, 128, 0.219);
+  text-decoration: none;
+  color: black;
+}
+#header2 .last .last1 a:hover {
+  color: #1277d9;
+}
+#header2 .last .last1 #svgex {
+  border: none !important;
+}
+#header2 .last .last1 #svgex:hover {
+  fill: #1277d9 !important;
+}
+#header2 .bottomhover {
+  transform: scale(1, 1) !important;
+}
+#header2 .bottom {
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: 500ms;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: open sans regular;
+}
+#header2 .bottom span {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(18, 118, 217, 0.1294117647);
+  padding: 0.2em;
+  z-index: 1000;
+}
+#header2 .bottom a:hover {
+  background-color: rgba(0, 0, 0, 0.041) !important;
+}
+#header2 .bottom > div {
+  padding: 0.9em;
+  padding-bottom: 0;
+}
+#header2 .bottom > div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: Open Sans Condensed;
+  text-transform: uppercase;
+  transition: 500ms;
+  display: block;
+  white-space: nowrap;
+  padding-bottom: 1em;
+}
+#header2 .bottom > div .show {
+  width: 100%;
+  transform: scale(1, 0);
+  padding: 1em;
+  position: absolute;
+  left: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: white;
+  border-top: 1px solid rgba(128, 128, 128, 0.233);
+  z-index: 1000;
+  transition: 500ms;
+  transform-origin: top;
+  justify-content: space-between;
+}
+#header2 .bottom > div .show a {
+  color: rgba(0, 0, 0, 0.651) !important;
+  padding: 0.7em 4em;
+  font-weight: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 0.8rem;
+  width: 100%;
+  background-color: white !important;
+}
+#header2 .bottom > div .show a b {
+  color: black;
+  font-size: 0.7rem;
+  transition: 500ms;
+}
+#header2 .bottom > div .show a:hover {
+  color: #1277d9 !important;
+  background-color: rgba(0, 0, 0, 0.041) !important;
+}
+#header2 .bottom > div .show a:hover b {
+  color: #1277d9;
+}
+#header2 .bottom .onhover {
+  background-color: rgba(0, 0, 0, 0.048) !important;
+  color: #1277d9 !important;
+}
+#header2 .bottom .onhover a {
+  background-color: transparent !important;
+}
+#header2 .bottom .onhover .show {
+  transform: scale(1, 1) !important;
+  background-color: #ffffff !important;
+}
+#header2 .bottom .onhover .show a {
+  background-color: transparent !important;
+}
+#header2 .bottom .onhover .show a b {
+  background-color: transparent;
+}
+#header2 #menu {
+  position: absolute;
+  top: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  #header1 {
+    display: none;
+  }
+  #header2 {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .svg1 {
+    justify-content: left;
+    align-items: left;
+  }
+  .svg1 svg {
+    left: 0;
+    border: 1px solid red;
+    float: left;
+    margin-left: -200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
