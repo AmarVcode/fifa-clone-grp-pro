@@ -148,6 +148,7 @@ body{
         z-index: 1000;
         border-top: 1px solid rgba(128, 128, 128, 0.247);
         border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+        z-index: 1000;
         // border-bottom: 1px solid grey;
         .top{
             border-bottom: 1px solid rgba(128, 128, 128, 0.247);
@@ -197,29 +198,43 @@ body{
 
         .bottomhover{
             transform: scale(1,1) !important;
+            background-color: white !important;
 
         }
 
         .bottom{
+            background-color: white !important;
+            position: absolute;
             transform: scale(1,0);
             transform-origin: top;
             transition: 500ms;
-            width: 90%;
+            width: 100%;
             margin: auto;
             display: grid;
             grid-template-columns: 100%;
             align-items: center;
             justify-content: space-around;
             font-family: open sans regular;
+            .box{
+                display: grid;
+                grid-template-columns: 90% 10% 100%;
+            }
             span{
                 float: right;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-radius: 5px;
-                background-color: #1276d921;
+                z-index: 1000 !important;
                 padding: .2em;
-                z-index: 1000;
+                box-sizing: content-box !important;
+                svg{
+                    border-radius: 5px;
+                padding: .2em;
+                box-sizing: content-box !important;
+
+                    background-color: #1276d921;
+
+                }
             }
             a:hover{
                         background-color: rgba(0, 0, 0, 0.041) !important;
