@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -296,6 +299,95 @@ body #header1 .bottom > div:hover > div {
   cursor: pointer;
 }
 
+.Scontainer {
+  background: rgb(238, 238, 228);
+  padding: 1em;
+  width: 100%;
+  font-family: Open Sans Condensed;
+  overflow: hidden;
+}
+.Scontainer h4 {
+  text-transform: uppercase;
+  color: rgb(85, 0, 101);
+  font-size: 1.6rem;
+  margin: 1.2em;
+}
+.Scontainer a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 1em;
+}
+.Scontainer .slides {
+  display: inline-flex;
+  transition: 1s;
+  cursor: pointer;
+}
+.Scontainer .slides div {
+  transform: scale(0.95);
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+.Scontainer .slides div p {
+  width: 300px !important;
+  margin: 1em;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.slidebtn {
+  display: flex;
+  gap: 40px;
+  margin: 1em;
+}
+.slidebtn div:nth-child(1) {
+  opacity: 30%;
+}
+.slidebtn div {
+  border-radius: 50%;
+  border: 2px solid #550065;
+  cursor: pointer;
+}
+.slidebtn div svg {
+  width: 1rem;
+  fill: #550065;
+  padding: 1em;
+  box-sizing: content-box;
+}
+
+.exception {
+  background-color: #000f2c;
+  color: white !important;
+}
+.exception h4 {
+  color: white !important;
+}
+.exception svg {
+  fill: #0088e7 !important;
+}
+.exception .slides {
+  background-color: transparent;
+}
+.exception .slides div {
+  background-color: transparent;
+}
+.exception .slidebtn div {
+  border-color: #0088e7 !important;
+}
+
+#slide3 div {
+  border-radius: 0%;
+}
+#slide3 img {
+  width: 200px;
+  border-radius: 5px;
+}
+#slide3 p {
+  width: 180px !important;
+}
+
 @media (max-width: 900px) {
   #header1 {
     display: none;
@@ -311,7 +403,6 @@ body #header1 .bottom > div:hover > div {
   }
   .svg1 svg {
     left: 0;
-    border: 1px solid red;
     float: left;
     margin-left: -200px;
   }
