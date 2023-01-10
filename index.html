@@ -5,10 +5,1380 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fifa</title>
+    <link rel="stylesheet" href="/Shruti/main.css">
+    <link rel="stylesheet" href="/Tannu maam/stylesheet.css">
+    <link rel="stylesheet" href="/Amar/css/style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAAB+CAMAAAAKn+3gAAAAjVBMVEX///8AU5AAPoW7yNgAS4wAUI7O2OQARYmxwdMAOYSkr8d9j7J5lbZPa50ATo20wtUmXpXJ0N5CZprl6vA3Z5weWJOcrccAM4EAQojy9fjf5e2FnLvs7/QAMICTqMNUdaMAK35ri7BphKxHXJV2ha0/X5ZeeqUpUY9Hb5+SoL4AJXult80xV5KfqMMgSYudyv4nAAAFnElEQVR4nO2ci3LiOgyGIdgEKA2BQJPQAC17SulCz/s/3uESwJbkNNceZ0b/zLYzS3z5sCNLst1Oh8VisVgsFovFYrFYLBaLxWKxWKx2adkrp/hafEp+2AeN9AeldGskVUz3ZBJkAn6/OSU0fE6L/xkSn4b/gEbewzKNhE96LQeqLcdZbTMBR263hJxBWvxZEp8K0LPOWJRpRPb0AXwy1BLFnQyVA/x7K94goPzQO77sUm2d5ExqB3THvwDorvVKDo7hQW9eO6BztyINAoaJXonvmZ78XNYM6G3ubTcHCMclWRkfFWCsKwO6o3vx5gAd3cR0Xs0dFTsw2FUBF491rjFAOdfnXUy2dGsQLrzVAL3nR/HGAF1Qx3SR8XD0UiugapabG0EwQ7+y+imleSksARgqxZsClB96DcHcaEMvXTLP0eKAQnWNmgJ0X/UapqZFMG3xvUZAR/22mgKEi+Dmhxo+jXa0MKC3V+tqCNDbgxrMi2Ba4FAQ0DX6+KsvtXglQHMjf4F7OcmeoUSTPwB6Y2OQpodfVQAXa2O0OQFWcZNpYk6SC5O7ZgDsGR6HqgSYsTzr6vsZq/xVxpCCBhSZEUhdgNO8gKiTEjUrdi0GjHewvD9H7b4ZMhdtAFzCPnrbA6oNho9tAlxHsIFxcoS1Qd+nTYBDWNLtEXYVeq/tAewjwKjTOcBR7YpXsnQLAFE27RzsJ2+wOm9Dmhn7AYMZbOOStNyjOQpzAG0BnKDCztlreUFz9JHraxcgSsZ4+7MjN0WA0mklYIC8luj7/P8JtqMOFVJYD4gDCXF9155Qz71NbsDfcLZlPmcbGRM5uwYOB1zpkQgpaEDpzwkRPaoUD/qUhN7JJES1p3tX2JkhM8CGgFd6WGKGF5pKgGQjIKG9Rv0TtzcNLxRii7NrBVIW7hcqXX/KYgjefsKU3IYYLxRdD8+xAoBH4p2pG9Cb6TN0ip9Y3D7Ds7cb4TmaH5C0UXUDCrBY4xmqJBRxrvRBXwKQXGVqH0Gwq4vfMyXHi8Ko0wxHdjQ3IO0n1AwoZ3rBPpqF0n9kLfu47wJt2OcGhLnmRgDhLHnHNlSZwwEeX7jvXQAwIpflmgFD0D2cDo3Ur4A4liAHeg25AaklpnZAOEsGqHPSV7/nAU6Xwm23/ICjDqV6AQXwTrfYTGqmPMDOjPSBmckLSLl5dQMqe/8XLVGoC5cRYlMNhr05AU37U7UCQlfygPsGLAHOzKDDCzkBQ0Pqv1bAT93Xjbe4GFirAuzMdFf6NDABSk0Cewg1AErQCNgzS7ANFdCbIg7PgA17A6A/03Q0BcDVwiXQCFiICEcF5ZUIhxtkgA0B7yFYnhQsg/Pv0w/TJn8lwEESqIJvwRHX7cKAbUp0X88UGFIWv7F9JrNTFks8OGIHv2jCmem63zkAfyMnY8i1ZxQS4ynUDgN6e3WcrQVMnoldXeEMdTnU1m+kTg1rAXulDtFepGWArQXEWcH8Uo8q2QqYLH7cljdLXU1sBeyhPbMCUjfsbQUkzH8BKYdKLAUk3LQiUoI7SwGJvHwhwEd4bidgTKzfheTe/Vo7AftVbOhZzj2ksBOw3HUVRV7XasA4+3xvHt3zw1YC4oMj51ojk0iCWx+sBKTuSHjb0ctN6/Tf9deIGm45iy0GpMZkaL4mOKYYvIm9gGQgEZk7Qc7oWxLZRkDqoiDeVXkoJkfQD2wFXOLDoKcZmpXfIK9OpnvFFgJOiC7JbtZN3Qn10qYn9y0EfCdnaNY9VtrxWcV2AgZUIOHSez+pqBz47QywIS/6PwIS+w0/nor6Ik8aXeYofc08hNuIJv0Jh1hv6Jr5inhqOKQB/yWqDD8yrkCe1CcbcM7fiuEPBWRfvldqJgVz1Ev6MbLTca4a8/UjLwWLxWKxWCwWi8VisVgsFovFYrFYtug/YbOARMHgqN0AAAAASUVORK5CYII=" type="image/x-icon">
 </head>
+
 <body>
-    <a href="/Amar/navbar.html">Navbar</a>
-    <a href="/Amar/slider1.html">Slider</a>
-    <a href="/Tannu maam/fifa-world.html">Tannu maam</a>
+    <header id="header1">
+        <div class="top">
+            <div class="svg1">
+                <svg width="120" height="42" viewBox="0 0 86 28" xmlns="http://www.w3.org/2000/svg"
+                    class="header_logo__ajtTL header_blackLogo__ZI1ZY">
+                    <path
+                        d="M0 .024V28h8.714V17.904h6.041l2.347-6.133H8.714V6.11h10.224l2.23-6.086H0zM23.818.024L23.795 28h8.62V.024h-8.597zM66.179 18.87l3.323-11.652 3.439 11.653h-6.762zM74.103.025H65.18L55.28 28h8.32l1.068-3.75h9.69L75.474 28h8.574L74.103.024zM38.341.024V28h8.714V17.904h6.041l2.37-6.133h-8.411V6.109h10.224L59.533.024H38.341zM82.212 2.996h.605c.093 0 .185 0 .278-.024.093 0 .163-.047.233-.07a.547.547 0 00.162-.166.509.509 0 00.07-.283.428.428 0 00-.07-.26c-.046-.07-.093-.117-.162-.14a.444.444 0 00-.233-.072c-.093 0-.162-.023-.255-.023h-.604v1.038h-.024zm-.697-1.58h1.371c.442 0 .79.07 1 .235.232.165.348.448.348.85 0 .306-.07.542-.256.707-.162.165-.395.26-.697.283l.976 1.628h-.697l-.953-1.604h-.395v1.604h-.697V1.415zM82.77 5.92c.349 0 .65-.071.953-.189.302-.141.558-.307.767-.542.209-.236.395-.52.534-.826.116-.33.186-.684.186-1.062 0-.377-.07-.73-.186-1.061-.14-.33-.302-.59-.534-.826-.233-.236-.465-.424-.767-.542a2.544 2.544 0 00-.953-.189c-.349 0-.65.07-.953.189-.302.141-.557.306-.766.542-.21.236-.395.52-.512.826a3.18 3.18 0 00-.186 1.061c0 .378.07.732.186 1.062.14.33.302.59.511.826.233.235.489.424.767.542.28.118.605.189.953.189zm0 .637a3.23 3.23 0 01-1.255-.26 3.076 3.076 0 01-1.022-.707 3.186 3.186 0 01-.674-1.038 3.364 3.364 0 01-.256-1.274 3.364 3.364 0 01.93-2.312A3.466 3.466 0 0181.515.26C81.91.071 82.33 0 82.77 0c.442 0 .86.07 1.255.26.395.165.72.4 1.022.707.28.307.535.637.697 1.038.163.401.256.826.256 1.274 0 .448-.093.873-.256 1.274a3.127 3.127 0 01-.697 1.038 2.859 2.859 0 01-1.022.707 3.23 3.23 0 01-1.255.26z">
+                    </path>
+                    </path>
+                </svg>
+            </div>
+            <div class="last">
+                <div class="last1">
+                    <a href="#" style="border: none; transform: scale(1.1);"><svg id="svgex" width="24" height="24"
+                            xmlns="http://www.w3.org/2000/svg" class="header_searchIcon__s_BYe">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1 10.5a9.5 9.5 0 1116.887 5.973l3.674 3.673a1 1 0 01-1.415 1.415l-3.673-3.674A9.46 9.46 0 0110.5 20 9.5 9.5 0 011 10.5zM10.5 3a7.5 7.5 0 100 15 7.5 7.5 0 000-15z">
+                            </path>
+                        </svg></a>
+                    <a href="#">Store</a>
+                    <a href="#">Tickets</a>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div>
+                <a href="#">Tournament ON FIFA+</a>
+                <div class="show">
+                    <div>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>The Best FIFA Football Awards™</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Tournaments on FIFA+</b></a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">About FIFA</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>President</b></a>
+                        <a href="#">The Vision 2020-2023</a>
+                        <a href="#">Past Presidents</a>
+                        <a href="#"><b>Organisation</b></a>
+                        <a href="#">Secretary General</a>
+                        <a href="#">FIFA Council</a>
+                        <a href="#">Commities</a>
+                        <a href="#">Congress</a>
+                        <a href="#">Media Services</a>
+                        <a href="#">Living Football</a>
+                        <a href="#">Finances</a>
+                        <a href="#">FIFA Museum</a>
+                        <a href="#">Contact FIFA</a>
+                        <a href="#">Jobs & Carrers</a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Member Associations</b></a>
+                        <a href="#">Asia</a>
+                        <a href="#">Africa</a>
+                        <a href="#">North, Central America & Caribbean</a>
+                        <a href="#">South America</a>
+                        <a href="#">Oceania</a>
+                        <a href="#">Europe</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Medical</b></a>
+                        <a href="#">Education & Awareness</a>
+                        <a href="#">Centres of Excellence</a>
+                        <a href="#">Injury prevention: Goalkeeper warm-up programme</a>
+                        <a href="#">Covid-19 Resource Centre</a>
+                        <a href="#">#ReachOut</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Commercial</b></a>
+                        <a href="#">FIFA Marketing</a>
+                        <a href="#">FIFA TV</a>
+                        <a href="#">Public Viewing</a>
+                        <a href="#"><b>The Best FIFA Football Awards™</b></a>
+                        <a href="#"><b>Official documents</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">Womens Football</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Strategy</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Development Programmes</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Professionalisation</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Women's Tournaments on FIFA+</b></a>
+                        <a href="#">FIFA Women's World Cup 2023™</a>
+                        <a href="#">Olympic Football Tournaments Paris 2024</a>
+                        <a href="#">International Match Calendars</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">Social impact</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>FIFA Foundation</b></a>
+                        <a href="#">What is the FIFA Foundation?</a>
+                        <a href="#">Employee Volunteer Programme</a>
+                        <a href="#"><b>Sustainability</b></a>
+                        <a href="#">Green Card for the Planet</a>
+                        <a href="#">Climate pledge for the FWC</a>
+                        <a href="#">Qatar 2022 Sustainability Progress Report</a>
+                        <a href="#">FWWC 2023 Sustainability Strategy</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Human Rights</b></a>
+                        <a href="#">FIFA World Cup Qatar 2022™ Grievance Mechanism</a>
+                        <a href="#">FIFA Threat Matrix Report</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Safeguarding</b></a>
+                        <a href="#">Safeguarding policy guidance</a>
+                        <a href="#">Capacity building and Education</a>
+                        <a href="#">Competition Safeguarding</a>
+                        <a href="#">Reporting concerns</a>
+                        <a href="#"><b>FIFA Legends</b></a>
+                        <a href="#">The Next 90</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Campaigns</b></a>
+                        <a href="#">Football Unites the World</a>
+                        <a href="#">Education For All</a>
+                        <a href="#">No Discrimination</a>
+                        <a href="#">Bring the Moves</a>
+                        <a href="#">Save the Planet</a>
+                        <a href="#">Protect Children</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">football development</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>FIFA Forward</b></a>
+                        <a href="#">Impact map</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Connect</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Member Associations</b></a>
+                        <a href="#">Asia</a>
+                        <a href="#">Africa</a>
+                        <a href="#">North, Central America & Caribbean</a>
+                        <a href="#">South America</a>
+                        <a href="#">Oceania</a>
+                        <a href="#">Europe</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">technical</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Football Technology & Innovation</b></a>
+                        <a href="#">Football Technologies & Innovations at the FIFA World Cup Qatar 2022™</a>
+                        <a href="#">Innovation Road Map</a>
+                        <a href="#">Research Programme</a>
+                        <a href="#">Innovation Programme</a>
+                        <a href="#">Standards</a>
+                        <a href="#">Resource Hub</a>
+                        <a href="#">Football Technology & Innovation Documents</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Training Centre </b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Refereeing</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Technical study group</b></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">legal</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Rules & Reports</b></a>
+                        <a href="#"><b>FIFA Legal Portal</b></a>
+                        <a href="#"><b>Judicial Bodies</b></a>
+                        <a href="#"><b>Football Tribunal</b></a>
+                        <a href="#"><b>Compliance</b></a>
+                        <a href="#">Compliance Handbook</a>
+                        <a href="#">Compliance Summit</a>
+                        <a href="#">Compliance Programme</a>
+                        <a href="#">Compensation Transparency</a>
+                        <a href="#">Guides and training material</a>
+                        <a href="#">Reporting mechanism</a>
+                        <a href="#">Code of Conduct for third parties</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Integrity</b></a>
+                        <a href="#">Protecting Football</a>
+                        <a href="#">Reporting Mechanisms</a>
+                        <a href="#">Integrity Support</a>
+                        <a href="#">FIFA Global Integrity Programme</a>
+                        <a href="#">Integrity e-Learning</a>
+                        <a href="#">FIFA Integrity Officers’ Integrity Platform</a>
+                        <a href="#"><b>Football regulatory</b></a>
+                        <a href="#">TMS</a>
+                        <a href="#">Professional</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Anti-doping</b></a>
+                        <a href="#">What constitutes doping?</a>
+                        <a href="#">Therapeutic Use Exemptions (TUE)</a>
+                        <a href="#">Doping Controls</a>
+                        <a href="#">Player and Player Support Personnel Responsibilities</a>
+                        <a href="#">FIFA Anti-Doping Regulations 2021</a>
+                        <a href="#">FAQs</a>
+                        <a href="#"><b>Court of Arbitration for Sport</b></a>
+                        <a href="#">CAS awards</a>
+                        <a href="#">Arbitrators</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Education</b></a>
+                        <a href="#">FIFA Global Integrity Programme</a>
+                        <a href="#">Diploma in Football Law</a>
+                        <a href="#">FIFA Diploma in Club Management</a>
+                        <a href="#">Executive Programmes</a>
+                        <a href="#">Football Law Annual review</a>
+                        <a href="#">Football Law Talks</a>
+                        <a href="#">Legal videos</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <a href="#">world ranking</a>
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Men's Ranking</b></a>
+                        <a href="#"><b>Women's Ranking</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>News</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Ranking procedures - Men</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Ranking procedures - Women</b></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+    <header id="header2">
+        <div class="top">
+            <div class="svg1">
+                <svg width="120" height="42" viewBox="0 0 86 28" xmlns="http://www.w3.org/2000/svg"
+                    class="header_logo__ajtTL header_blackLogo__ZI1ZY">
+                    <path
+                        d="M0 .024V28h8.714V17.904h6.041l2.347-6.133H8.714V6.11h10.224l2.23-6.086H0zM23.818.024L23.795 28h8.62V.024h-8.597zM66.179 18.87l3.323-11.652 3.439 11.653h-6.762zM74.103.025H65.18L55.28 28h8.32l1.068-3.75h9.69L75.474 28h8.574L74.103.024zM38.341.024V28h8.714V17.904h6.041l2.37-6.133h-8.411V6.109h10.224L59.533.024H38.341zM82.212 2.996h.605c.093 0 .185 0 .278-.024.093 0 .163-.047.233-.07a.547.547 0 00.162-.166.509.509 0 00.07-.283.428.428 0 00-.07-.26c-.046-.07-.093-.117-.162-.14a.444.444 0 00-.233-.072c-.093 0-.162-.023-.255-.023h-.604v1.038h-.024zm-.697-1.58h1.371c.442 0 .79.07 1 .235.232.165.348.448.348.85 0 .306-.07.542-.256.707-.162.165-.395.26-.697.283l.976 1.628h-.697l-.953-1.604h-.395v1.604h-.697V1.415zM82.77 5.92c.349 0 .65-.071.953-.189.302-.141.558-.307.767-.542.209-.236.395-.52.534-.826.116-.33.186-.684.186-1.062 0-.377-.07-.73-.186-1.061-.14-.33-.302-.59-.534-.826-.233-.236-.465-.424-.767-.542a2.544 2.544 0 00-.953-.189c-.349 0-.65.07-.953.189-.302.141-.557.306-.766.542-.21.236-.395.52-.512.826a3.18 3.18 0 00-.186 1.061c0 .378.07.732.186 1.062.14.33.302.59.511.826.233.235.489.424.767.542.28.118.605.189.953.189zm0 .637a3.23 3.23 0 01-1.255-.26 3.076 3.076 0 01-1.022-.707 3.186 3.186 0 01-.674-1.038 3.364 3.364 0 01-.256-1.274 3.364 3.364 0 01.93-2.312A3.466 3.466 0 0181.515.26C81.91.071 82.33 0 82.77 0c.442 0 .86.07 1.255.26.395.165.72.4 1.022.707.28.307.535.637.697 1.038.163.401.256.826.256 1.274 0 .448-.093.873-.256 1.274a3.127 3.127 0 01-.697 1.038 2.859 2.859 0 01-1.022.707 3.23 3.23 0 01-1.255.26z">
+                    </path>
+
+                </svg>
+            </div>
+            <div class="last">
+                <button id="menu" onclick="menu('menub')"><svg width="24" height="24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 4h24l-1.333 2H0V4zM0 13h22.667L24 11H0v2zM0 20h22.667L24 18H0v2z" fill="#1D2A45">
+                        </path>
+                    </svg></button>
+                <div class="last1">
+
+                    <a href="#" style="border: none; transform: scale(1.1);"><svg id="svgex" width="20" height="20"
+                            xmlns="http://www.w3.org/2000/svg" class="ff-ml-8 undefined">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 1a1 1 0 011-1h8a1 1 0 011 1v3.5h4a1 1 0 01.997 1.074l-1 13.5A1 1 0 0118 20H2a1 1 0 01-.997-.926l-1-13.5A1 1 0 011 4.5h4V1zm0 5.5v1a1 1 0 002 0v-1h6v1a1 1 0 102 0v-1h2.923L17.071 18H2.93L2.077 6.5H5zm8-2H7V2h6v2.5zM5 15a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z">
+                            </path>
+                        </svg></a>
+                    <a href="#"><svg id="svgex" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                            class="ff-ml-8 undefined">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3 4h6v2H4a1 1 0 00-1 1v.758c1.206.807 2 2.18 2 3.742a4.493 4.493 0 01-2 3.742V17a1 1 0 001 1h5v2H3a2 2 0 01-2-2v-4.05a2.5 2.5 0 000-4.9V6a2 2 0 012-2zm8 14v2h10a2 2 0 002-2v-4.05a2.5 2.5 0 010-4.9V6a2 2 0 00-2-2H11v2h9a1 1 0 011 1v.758c-1.206.807-2 2.18-2 3.742 0 1.561.794 2.935 2 3.742V17a1 1 0 01-1 1h-9zm0-7H9V8h2v3zm0 5H9v-3h2v3z">
+                            </path>
+                        </svg></a>
+                    <a href="#"><svg id="svgex" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                            class="ff-ml-8 undefined">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 3a3 3 0 100 6 3 3 0 000-6zM7 6a5 5 0 1110 0A5 5 0 017 6zM2 22c0-5.523 4.477-10 10-10s10 4.477 10 10a1 1 0 11-2 0 8 8 0 10-16 0 1 1 0 11-2 0z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom" id="menub">
+            <div id="one">
+                <div class="box">
+                    <a href="#">Tournament ON FIFA+ </a><span onclick="showdata('one')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>The Best FIFA Football Awards™</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Tournaments on FIFA+</b></a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="two">
+                <div class="box">
+                    <a href="#">About FIFA </a><span onclick="showdata('two')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>President</b></a>
+                        <a href="#">The Vision 2020-2023</a>
+                        <a href="#">Past Presidents</a>
+                        <a href="#"><b>Organisation</b></a>
+                        <a href="#">Secretary General</a>
+                        <a href="#">FIFA Council</a>
+                        <a href="#">Commities</a>
+                        <a href="#">Congress</a>
+                        <a href="#">Media Services</a>
+                        <a href="#">Living Football</a>
+                        <a href="#">Finances</a>
+                        <a href="#">FIFA Museum</a>
+                        <a href="#">Contact FIFA</a>
+                        <a href="#">Jobs & Carrers</a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Member Associations</b></a>
+                        <a href="#">Asia</a>
+                        <a href="#">Africa</a>
+                        <a href="#">North, Central America & Caribbean</a>
+                        <a href="#">South America</a>
+                        <a href="#">Oceania</a>
+                        <a href="#">Europe</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Medical</b></a>
+                        <a href="#">Education & Awareness</a>
+                        <a href="#">Centres of Excellence</a>
+                        <a href="#">Injury prevention: Goalkeeper warm-up programme</a>
+                        <a href="#">Covid-19 Resource Centre</a>
+                        <a href="#">#ReachOut</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Commercial</b></a>
+                        <a href="#">FIFA Marketing</a>
+                        <a href="#">FIFA TV</a>
+                        <a href="#">Public Viewing</a>
+                        <a href="#"><b>The Best FIFA Football Awards™</b></a>
+                        <a href="#"><b>Official documents</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="three">
+                <div class="box">
+<a href="#">Womens Football </a><span onclick="showdata('three')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Strategy</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Development Programmes</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Professionalisation</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Women's Tournaments on FIFA+</b></a>
+                        <a href="#">FIFA Women's World Cup 2023™</a>
+                        <a href="#">Olympic Football Tournaments Paris 2024</a>
+                        <a href="#">International Match Calendars</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="four">
+                <div class="box">
+ <a href="#">Social impact </a><span onclick="showdata('four')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+               
+                <div class="show">
+                    <div>
+                        <a href="#"><b>FIFA Foundation</b></a>
+                        <a href="#">What is the FIFA Foundation?</a>
+                        <a href="#">Employee Volunteer Programme</a>
+                        <a href="#"><b>Sustainability</b></a>
+                        <a href="#">Green Card for the Planet</a>
+                        <a href="#">Climate pledge for the FWC</a>
+                        <a href="#">Qatar 2022 Sustainability Progress Report</a>
+                        <a href="#">FWWC 2023 Sustainability Strategy</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Human Rights</b></a>
+                        <a href="#">FIFA World Cup Qatar 2022™ Grievance Mechanism</a>
+                        <a href="#">FIFA Threat Matrix Report</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Safeguarding</b></a>
+                        <a href="#">Safeguarding policy guidance</a>
+                        <a href="#">Capacity building and Education</a>
+                        <a href="#">Competition Safeguarding</a>
+                        <a href="#">Reporting concerns</a>
+                        <a href="#"><b>FIFA Legends</b></a>
+                        <a href="#">The Next 90</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Campaigns</b></a>
+                        <a href="#">Football Unites the World</a>
+                        <a href="#">Education For All</a>
+                        <a href="#">No Discrimination</a>
+                        <a href="#">Bring the Moves</a>
+                        <a href="#">Save the Planet</a>
+                        <a href="#">Protect Children</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="five">
+                <div class="box">
+<a href="#">football development </a><span onclick="showdata('five')"><svg width="24" height="24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>FIFA Forward</b></a>
+                        <a href="#">Impact map</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Connect</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Member Associations</b></a>
+                        <a href="#">Asia</a>
+                        <a href="#">Africa</a>
+                        <a href="#">North, Central America & Caribbean</a>
+                        <a href="#">South America</a>
+                        <a href="#">Oceania</a>
+                        <a href="#">Europe</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="six">
+                <div class="box">
+<a href="#">technical </a><span onclick="showdata('six')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Football Technology & Innovation</b></a>
+                        <a href="#">Football Technologies & Innovations at the FIFA World Cup Qatar 2022™</a>
+                        <a href="#">Innovation Road Map</a>
+                        <a href="#">Research Programme</a>
+                        <a href="#">Innovation Programme</a>
+                        <a href="#">Standards</a>
+                        <a href="#">Resource Hub</a>
+                        <a href="#">Football Technology & Innovation Documents</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>FIFA Training Centre </b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Refereeing</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Technical study group</b></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="seven">
+                <div class="box">
+<a href="#">legal </a><span onclick="showdata('seven')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Rules & Reports</b></a>
+                        <a href="#"><b>FIFA Legal Portal</b></a>
+                        <a href="#"><b>Judicial Bodies</b></a>
+                        <a href="#"><b>Football Tribunal</b></a>
+                        <a href="#"><b>Compliance</b></a>
+                        <a href="#">Compliance Handbook</a>
+                        <a href="#">Compliance Summit</a>
+                        <a href="#">Compliance Programme</a>
+                        <a href="#">Compensation Transparency</a>
+                        <a href="#">Guides and training material</a>
+                        <a href="#">Reporting mechanism</a>
+                        <a href="#">Code of Conduct for third parties</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Integrity</b></a>
+                        <a href="#">Protecting Football</a>
+                        <a href="#">Reporting Mechanisms</a>
+                        <a href="#">Integrity Support</a>
+                        <a href="#">FIFA Global Integrity Programme</a>
+                        <a href="#">Integrity e-Learning</a>
+                        <a href="#">FIFA Integrity Officers’ Integrity Platform</a>
+                        <a href="#"><b>Football regulatory</b></a>
+                        <a href="#">TMS</a>
+                        <a href="#">Professional</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Anti-doping</b></a>
+                        <a href="#">What constitutes doping?</a>
+                        <a href="#">Therapeutic Use Exemptions (TUE)</a>
+                        <a href="#">Doping Controls</a>
+                        <a href="#">Player and Player Support Personnel Responsibilities</a>
+                        <a href="#">FIFA Anti-Doping Regulations 2021</a>
+                        <a href="#">FAQs</a>
+                        <a href="#"><b>Court of Arbitration for Sport</b></a>
+                        <a href="#">CAS awards</a>
+                        <a href="#">Arbitrators</a>
+                    </div>
+                    <div>
+                        <a href="#"><b>Education</b></a>
+                        <a href="#">FIFA Global Integrity Programme</a>
+                        <a href="#">Diploma in Football Law</a>
+                        <a href="#">FIFA Diploma in Club Management</a>
+                        <a href="#">Executive Programmes</a>
+                        <a href="#">Football Law Annual review</a>
+                        <a href="#">Football Law Talks</a>
+                        <a href="#">Legal videos</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="eight">
+                <div class="box">
+<a href="#">world ranking </a><span onclick="showdata('eight')"><svg width="24" height="24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.032 4a1 1 0 01.998 1.001L13.023 11H19a1 1 0 110 2h-5.98l-.008 6.001a1 1 0 11-2-.002L11.02 13H5a1 1 0 110-2h6.023l.007-6.001A1 1 0 0112.032 4z"
+                                fill="#000F2C"></path>
+                        </svg></span>
+                </div>
+                
+                <div class="show">
+                    <div>
+                        <a href="#"><b>Men's Ranking</b></a>
+                        <a href="#"><b>Women's Ranking</b></a>
+                    </div>
+                    <div>
+                        <a href="#"><b>News</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Ranking procedures - Men</b></a>
+
+                    </div>
+                    <div>
+                        <a href="#"><b>Ranking procedures - Women</b></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="sub-main">
+            <div class="content">
+                <div class="container">
+                    <div class="store">
+                        <div id="player1">
+                            <img src="img/Brazilian-fifa-img.webp" id="player-img" style="width:100%;"/>
+                        </div>
+                        <div class="heading-on-img-box">
+                                <h2 id="heading">Football and the world mourns Pelé</h2>
+                                <div id="anchr">
+                                    <a href="#" id="anchr-teg">Brazilian legend Pelé has died at the age of 82</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!--section second grey box-->
+            <div class="bg-grey">
+                <div class="container2">
+                    <div class="store1">
+                        <div class="second-content">
+                            <div class="boxes">
+                                <div class="left-box">
+                                    <div id="sticky-box">
+                                        <div id="left-content">
+                                            <h2>Remembering Pelé</h2>
+                                             <p style="margin-bottom:30px;">They called him ‘The King’, and his face is one of the most recognisable in world football. The man in question is, of course, Pele, who was once named by FIFA as the greatest player of the 20th century. The legendary Brazilian passed away on 29 December 2022.</p>
+                                            <a href="#" class="anchr-left">More from this topic</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="right-raw">
+                                        <div class="card-box">
+                                            <div class="card-contain">
+                                                <div class="store3">
+                                                    <div class="store-pic">
+                                                        <img src="img/fifa-img6.jpg"  class="right-img"/>
+                                                    </div>
+                                                    <div class="anchr-div">
+                                                        <a href="#" class="A-teg">Remembering pele: 1940-2022</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-contain">
+                                            <div class="store3">
+                                                <div class="store-pic">
+                                                    <img src="img/grup-fifa-img.webp" class="right-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Stadium in Guinea-Bissau to be named in Pelé's<br>
+                                                        honour</p>
+                                                        <p>5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                <!--second raw-->
+
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/fifa-img5.webp" width="300px" height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/grup-fifa-img.webp" width="300px" height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/fifa-img3.avif" width="300px"  height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                        <!--next grey part 6 more mini-box-->
+                                        <div id="more">
+                                            <h6>MORE</h6>
+                                            <hr width="100%"/>
+                                        </div>
+                                        <div class="third-raw">
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-img3.avif" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-img6.jpg" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/youth-development.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/grup-fifa-img.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-img5.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-img5.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <!--section third white box-->
+
+             <div class="bg-white">
+                <div class="container2">
+                    <div class="store1">
+                        <div class="second-content">
+                            <div class="boxes">
+                                <div class="left-box">
+                                    <div id="sticky-box">
+                                        <div id="left-content">
+                                            <h2>Latest FIFA News</h2>
+                                             <p style="margin-bottom:30px;">FIFA is working on a wide range of topics from improving the women's game and developing football around the world to ensuring better football governance structures.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="right-raw">
+                                        <div class="card-box">
+                                            <div class="card-contain">
+                                                <div class="store3">
+                                                    <div class="store-pic">
+                                                        <img src="img/fifa-world-img/public-img.webp"  class="right-img"/>
+                                                    </div>
+                                                    <div class="anchr-div">
+                                                        <a href="#" class="A-teg">Remembering pele: 1940-2022</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-contain">
+                                            <div class="store3">
+                                                <div class="store-pic">
+                                                    <img src="img/fifa-world-img/Gianluca-Vialli.webp" class="right-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Stadium in Guinea-Bissau to be named in Pelé's<br>
+                                                        honour</p>
+                                                        <p>5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                <!--second raw-->
+
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/fifa-world-img/FIFA-Football-Agent-Regulations.webp" width="300px" height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/fifa-world-img/Women-s-Football.webp" width="300px" height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="mini-card-box">
+                                                <div class="store4">
+                                                    <img src="img/fifa-world-img/fifa-won-img.webp" width="300px"  height="180px" id="mini-img"/>
+                                                </div>
+                                                <div class="anchr-div">
+                                                    <div class="card-p-teg">
+                                                        <p>Member Associations</p>
+                                                        <p id="card-para">Colombian Stadium to be<br>
+                                                        named after Pelé </p>
+                                                        <p style="padding-top:20px;">5 Jan 2023</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                        <!--next grey part 6 more mini-box-->
+                                        <div id="more">
+                                            <h6>MORE</h6>
+                                            <hr width="100%"/>
+                                        </div>
+                                        <div class="third-raw">
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/fifa-fadration.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/Morocco-FIFA-World.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/FIFA-Coaches.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/Women-s-Football.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/youth-development.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small-box">
+                                                <div class="small-box-container">
+                                                    <div class="small-box-content">
+                                                        <img src="img/fifa-world-img/fifa-fadration.webp" class="small-box-img"/>
+                                                        <div class="small-box-para">
+                                                            <p>President</p>
+                                                            <p class="small-2para">Immortal-forever with us</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+   </div>
+
+
+    <div class="Scontainer">
+        <h4>
+            Football Unites The World campaigns
+        </h4>
+        <div id="slide1" class="slides">
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/012969fa-f576-464e-8edb-95d3ad33e93c/Football-Unites-the-World?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>Football Unites the World</p>
+            </div>
+
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/09429296-cda1-400c-aa3b-beb5d20e5347/STP_with_logos?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>Save the Planet</p>
+            </div>
+
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/5c2845e1-4924-4259-a640-5e3735512c83/-NoDiscrimination?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>No Discrimination</p>
+            </div>
+
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/7c6e78ae-6bca-46e2-b90f-9b1aa396a3cf/BTM_image_with_logos?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>Bring the Moves</p>
+            </div>
+
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/a5b8c792-38bf-4ffb-acac-cf49a3e5c36e/PC_with_logos?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>Protect Children</p>
+            </div>
+
+            <div>
+                <img src="https://digitalhub.fifa.com/transform/1bbfdc2d-4596-4d9a-86e0-c7f69346cb88/EFA_with_logos?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                    alt="">
+                <p>Eduction For All</p>
+            </div>
+        </div>
+        <div class="slidebtn">
+            <div id="slide1btnl" onclick="slideleft('slide1',6)"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    data-role="none"
+                    class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowPrev__3Kl9j  slickArrowPrevIcon "
+                    style="display: block;" slideCount="6" type="13" aria-disabled="false">
+                    <path d="M15 3l-8 9 8 9" stroke="#091B3F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg></div>
+            <div id="slide1btnr" onclick="slideright('slide1',6)">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-role="none" class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowNext__BMWV9  slickArrowNextIcon " style="display: block;" type="14" aria-disabled="false"><path d="M9 21l8-9-8-9" stroke="#091B3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </div>
+        </div>
+        <a href="#">See all campaigns</a>
+    </div>
+
+<br><br><br><br><br>
+    
+
+<div class="Scontainer" style="background: #f7f9fc;">
+    <h4>
+        FIFA Tournaments & Events on FIFA+
+    </h4>
+    <div id="slide2" class="slides">
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/412435a1-ebae-4d3c-be0b-b24b30b13c74/FWC-2022-Banner_Row?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>FIFA World Cup Qatar 2022™</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/7ff05476-eb60-4890-a73f-a40b4580f284/Beyond-Greatness-Brand-identity-for-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>FIFA Women's World Cup Australia &amp; New Zealand 2023™</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/1d38a091-0f5f-4253-84b4-9834d85f8643/U20_INDONESIA-WC_2023_Thumb?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>FIFA U-20 World Cup Indonesia 2023™</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/5cdcfc81-b237-4b58-8659-787adc43df39/FIFAPLS_PR_WorldCup2026_Announcement_Thumb_03?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>FIFA World Cup 2026™</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/6a571569-593b-47fe-aa3d-2b991b8c0662/FIFAe-Thumbnail?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>FIFAe Finals 2023</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/b4d0cf3d-795e-438c-9b59-753a030d2e24/Olympics-Paris-2024-Logo?io=transform:fill,aspectratio:16x9,width:336&quality=100"
+                alt="">
+            <p>Olympic Football Tournaments Paris 2024</p>
+        </div>
+    </div>
+    <div class="slidebtn">
+        <div id="slide2btnl" onclick="slideleft2('slide2',6)"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                data-role="none"
+                class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowPrev__3Kl9j  slickArrowPrevIcon "
+                style="display: block;" slideCount="6" type="13" aria-disabled="false">
+                <path d="M15 3l-8 9 8 9" stroke="#091B3F" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg></div>
+        <div id="slide2btnr" onclick="slideright2('slide2',6)">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-role="none" class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowNext__BMWV9  slickArrowNextIcon " style="display: block;" type="14" aria-disabled="false"><path d="M9 21l8-9-8-9" stroke="#091B3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </div>
+    </div>
+    <a href="#">Explore FIFA Tournaments</a>
+</div>
+<section class="exception">
+    <img style="width: 180px; margin: 1em; padding: 1em;" src="https://digitalhub.fifa.com/transform/5c7e562d-664a-4235-8ef8-d969d7145411/fplus_rgbw?io=transform:fill,width:1200&quality=100" alt="">
+
+<div class="Scontainer" style="background: transparent; color: white;">
+    <h4>
+        FIFA Tournaments & Events on FIFA+
+    </h4>
+    <div id="slide3" class="slides">
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/016ce83f-57cf-4d31-9480-7b57935c18a2/FIFA-Your-Home-for-Football-promotional-image?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>My World Cup™</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/b8d8075a-7e44-4a10-a12c-42a97de1d3d3/FIFA-Highlights?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>FIFA+: Your Home For Highlights</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/3313dc24-32b1-4ad8-8ec2-18b877c74f43/FIFA-Fantasy?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>FIFA World Cup™ Fantasy</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/8ff035bb-22d6-41a6-882c-aff2782e342a/FIFA-Match-Alerts?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>Match Centre</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/78fb13d3-cb9e-4b0c-bbe1-b356e77dc770/FIFAPLS_100EXTHL_1998BRAvFRA_TMB?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>FIFA+ Archive</p>
+        </div>
+
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/4377dffe-e4e5-4af4-9b1b-f5da1eef9b4b/Captains-The-Chosen-Few?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>The Chosen Few | Captains</p>
+        </div>
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/f8d239a2-1e4a-4319-b58e-14f2847b7a84/FIFA-Collect?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>FIFA + Collect</p>
+        </div>
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/4b585988-eb3e-47bc-9471-d93d510dcbee/FIFAPLS_FM_P_Ronaldinho_Banner_01?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>Ronaldinho: The Happiest Man in the World</p>
+        </div>
+        <div>
+            <img src="https://digitalhub.fifa.com/transform/7ab59282-130f-4bc5-a356-5d4b39206c6e/Streaming-Video-Hold-Slate-FIFA-thumbnail?io=transform:fill,aspectratio:16x9,width:1200&quality=100"
+                alt="">
+            <p>Share Your Feedback&nbsp;</p>
+        </div>
+    </div>
+    <div class="slidebtn">
+        <div id="slide3btnl" onclick="slideleft3('slide3',9)"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                data-role="none"
+                class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowPrev__3Kl9j  slickArrowPrevIcon "
+                style="display: block;" slideCount="6" type="13" aria-disabled="false">
+                <path d="M15 3l-8 9 8 9" stroke="#091B3F" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg></div>
+        <div id="slide3btnr" onclick="slideright3('slide3',9)">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-role="none" class="simple-carousel_slickArrow__X_DGs simple-carousel_slickArrowNext__BMWV9  slickArrowNextIcon " style="display: block;" type="14" aria-disabled="false"><path d="M9 21l8-9-8-9" stroke="#091B3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<div class="image">
+    <img src="Fifa1.png">
+</div>
+<div class ="image2">
+    <h3>THE VISION 2020-2023</h3>
+    <p>The Vision 2020-2023 is a pledge not only to FIFA’s member <br> associations, but to everyone who loves football.</p>
+    <button id = "button">Read more</button>
+</div>
+<div class="item">
+    <h2>ALL FIFA</h2>
+</div>
+<div class="flex-box">
+    <div>
+        <img src="https://cloudinary.fifa.com/m/50bec0523014bf65/original/hero-about1-intact-elephant.png?tx=c_fill,ar_1.33,g_auto,q_auto:best,w_636">
+        <h5>ABOUT FIFA</h5> 
+        <p>FIFA exists to govern football and to develop the game around the world. Since 2016, the organization has been evolving rapidly to become an organization that can more effectively serve our game for the benefit of the world.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/661868c541640ca4/original/1297232569.png?tx=c_fill,ar_1.33,x_1094,y_500,g_xy_center,q_auto:best,w_636">
+        <h5>WOMEN'S FOOTBALL</h5>
+        <p>FIFA has made sizeable strides off the pitch to hasten the growth of women’s football.</p>
+        <a href="#">Read More</a>
+    </div>
+</div>
+<div class="flex-box2">
+    <div>
+        <img src="https://cloudinary.fifa.com/m/5ce1fe3feed531a/original/1137542325.jpg?tx=c_fill,ar_1.33,x_1852,y_1234,g_xy_center,q_auto:best,w_636">
+        <h5>SOCIAL IMPACT</h5>
+        <p>FIFA is actively working to improve the lives of people around the world through the work of FIFA Foundation and its Social Responsibility programmes</p>
+        <a href="#">Read More</a>
+    </div>
+    <div>
+        <img src="https://digitalhub.fifa.com/transform/713e1228-88df-467f-a770-ec6bdf0aca39/hdhnkjpaipgrhmu4ei5l-jpg?io=transform:fill,aspectratio:4x3,width:636&quality=100">
+        <h5>FOOTBALL DEVELOPMENT</h5>
+        <p>Pursuing the Goal 7 of The Vision 2020-2023, FIFA so far has laid building blocks for further growth through many examples of reinforced governance structures and the development of professionals and systems operating within them.</p>
+        <a href="#">Read More</a>
+    </div>
+</div>
+<div class="flex-box3">
+    <div>
+        <img src="https://cloudinary.fifa.com/m/41b5a6658d25c687/original/u5w60x4636wbr4c0xdxr-jpg.jpg?tx=c_fill,ar_1.33,g_auto,q_auto:best,w_416">
+        <h5>TECHNICAL</h5>
+        <p>FIFA followed parallel pathways in using technology for the benefit of the whole football community in 2020.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/37d3f7f05a05f269/original/gpebymowybmgyiw1u3aj-jpg.jpg?tx=c_fill,ar_1.33,g_auto,q_auto:best,w_416">
+        <h5>LEGAL & COMPLIANCE</h5>
+        <p>As world football’s governing body, FIFA is firmly committed to the principles of the rule of law, good governance and transparency</p>
+        <a href="#">Read More</a>
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/a5f984b7076c434e/original/zc3fi5v7oax6ion9belo-jpg.jpg?tx=c_fill,ar_1.33,x_2341,y_1560,g_xy_center,q_auto:best,w_416">
+        <h5>FIFA/COCA-COLA WORLD RANKING</h5>
+        <p>Updated ranking table for Men's and Women's teams. </p>
+        <a href="#">Read More</a>
+    </div>
+</div>
+<hr>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; text-align: center;">FIFA PARTNERS</h5>
+<div class="fifa-partners">
+    <div>
+        <img src="https://digitalhub.fifa.com/transform/f8b15d10-2085-44dd-9874-82222d941b6b/Vector-Adidas-new-logo?io=transform:fill,height:57,width:114">
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/7b71c2f3185bddfb/original/fwc2022_fp_cocacola-co_lbgr.eps?tx=c_fill,x_57,y_28,g_xy_center,q_auto,w_114,h_57">
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/7ecf457666d9fb6c/original/fwc2022_fp_dalian-wanda-co_lbgr.eps?tx=c_fill,x_57,y_28,g_xy_center,q_auto,w_114,h_57">
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/6954f7d3fd116343/webimage-fwc2022_fp_hyundai-kia-co_lbgr.png?tx=c_fill,g_auto,q_auto,w_114,h_57">
+    </div>
+    <div>
+        <img src="https://cloudinary.fifa.com/m/6d3a4cc8e08eeb0f/webimage-fwc2022_fp_qatar-co_lbgr.png?tx=c_fill,g_auto,q_auto,w_114,h_57">
+    </div>
+    <div>
+        <img src="https://digitalhub.fifa.com/transform/aebad5a8-a4ff-467a-81d2-ab34c4843fbe/Vector-Qatar-Energy-logo?io=transform:fill,height:57,width:114">
+    </div>
+    <div>
+        <img src="https://digitalhub.fifa.com/transform/fdae2bc1-3678-4471-955d-20e4870b924f/visa_94x71?io=transform:fill,height:71,width:94">
+    </div>
+</div>
+<hr>
+<div class="fifa-logo">
+    <svg width="120" height="42" viewBox="0 0 86 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 .024V28h8.714V17.904h6.041l2.347-6.133H8.714V6.11h10.224l2.23-6.086H0zM23.818.024L23.795 28h8.62V.024h-8.597zM66.179 18.87l3.323-11.652 3.439 11.653h-6.762zM74.103.025H65.18L55.28 28h8.32l1.068-3.75h9.69L75.474 28h8.574L74.103.024zM38.341.024V28h8.714V17.904h6.041l2.37-6.133h-8.411V6.109h10.224L59.533.024H38.341zM82.212 2.996h.605c.093 0 .185 0 .278-.024.093 0 .163-.047.233-.07a.547.547 0 00.162-.166.509.509 0 00.07-.283.428.428 0 00-.07-.26c-.046-.07-.093-.117-.162-.14a.444.444 0 00-.233-.072c-.093 0-.162-.023-.255-.023h-.604v1.038h-.024zm-.697-1.58h1.371c.442 0 .79.07 1 .235.232.165.348.448.348.85 0 .306-.07.542-.256.707-.162.165-.395.26-.697.283l.976 1.628h-.697l-.953-1.604h-.395v1.604h-.697V1.415zM82.77 5.92c.349 0 .65-.071.953-.189.302-.141.558-.307.767-.542.209-.236.395-.52.534-.826.116-.33.186-.684.186-1.062 0-.377-.07-.73-.186-1.061-.14-.33-.302-.59-.534-.826-.233-.236-.465-.424-.767-.542a2.544 2.544 0 00-.953-.189c-.349 0-.65.07-.953.189-.302.141-.557.306-.766.542-.21.236-.395.52-.512.826a3.18 3.18 0 00-.186 1.061c0 .378.07.732.186 1.062.14.33.302.59.511.826.233.235.489.424.767.542.28.118.605.189.953.189zm0 .637a3.23 3.23 0 01-1.255-.26 3.076 3.076 0 01-1.022-.707 3.186 3.186 0 01-.674-1.038 3.364 3.364 0 01-.256-1.274 3.364 3.364 0 01.93-2.312A3.466 3.466 0 0181.515.26C81.91.071 82.33 0 82.77 0c.442 0 .86.07 1.255.26.395.165.72.4 1.022.707.28.307.535.637.697 1.038.163.401.256.826.256 1.274 0 .448-.093.873-.256 1.274a3.127 3.127 0 01-.697 1.038 2.859 2.859 0 01-1.022.707 3.23 3.23 0 01-1.255.26z" fill="#326295"></path>
+    </svg>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h5>EXPLORE</h5>
+            <ul>
+                <li><a href="#">Competitions</a></li>
+                <li><a href="#">About FIFA</a></li>
+                <li><a href="#">Women's Football</a></li>
+                <li><a href="#">Social Impact</a></li>
+                <li><a href="#">Football Development</a></li>
+                <li><a href="#">Technical</a></li>
+                <li><a href="#">Legal & Compliance</a></li>
+                <li><a href="#">FIFA/Coca-Cola World ranking</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>ALSO VISIT</h5>
+            <ul>
+                <li><a href="#">All stories & topics</a></li>
+                <li><a href="#">Official documents</a></li>
+                <li><a href="#">Jobs & Careers</a></li>
+                <li><a href="#">Contact FIFA</a></li>
+            </ul>
+        </div>
+        <div class="blank"></div>
+    </div>
+</footer>
+<div class="social-media">
+    <a href="#">
+      <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png">
+      <img src="https://cdn-icons-png.flaticon.com/128/2168/2168336.png">
+      <img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png">
+      <img src="https://cdn-icons-png.flaticon.com/128/3669/3669688.png">
+      <img src="https://cdn-icons-png.flaticon.com/128/3669/3669925.png">
+    </a>
+</div>
+<hr> 
+<div class="bottom">
+    <div><a href="#">Terms of service</a></div>
+    <div><a href="#">Data protection portal</a></div>
+    <div><a href="#">Downloads</a></div>
+    <div><a href="#">Cookie Settings</a></div>
+</div>
+<div class="copy-write">
+    <b>Copyright © 1994 -2022 FIFA. All rights reserved.</b>
+</div>
+ 
+
+    <script src="/Amar/main.js"></script>
 </body>
 </html>
