@@ -11,6 +11,10 @@
   margin: 0;
   padding: 0; }
 
+  header{
+    z-index: 5000 !important;
+  }
+
 body {
   margin: 0;
   padding: 0;
@@ -160,8 +164,11 @@ body {
       fill: #1277d9 !important; }
   #header2 .bottomhover {
     transform: scale(1, 1) !important;
-    background-color: white !important; }
+    background-color: white !important; 
+  z-index: 5000;
+  }
   #header2 .bottom {
+    z-index: 5000;
     background-color: white !important;
     position: absolute;
     transform: scale(1, 0);
